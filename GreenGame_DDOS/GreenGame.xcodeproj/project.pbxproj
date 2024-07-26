@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50211BE2C1DCB76005FDBF1 /* recycling_symbol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F50211BD2C1DCB76005FDBF1 /* recycling_symbol.jpg */; };
+		F50211CD2C220BAF005FDBF1 /* ClassificationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50211CC2C220BAF005FDBF1 /* ClassificationResultView.swift */; };
+		F50211D52C236FB4005FDBF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50211D32C236FB4005FDBF1 /* Localizable.strings */; };
+		F50211DE2C236FF6005FDBF1 /* Localizable_de.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50211DD2C236FF6005FDBF1 /* Localizable_de.strings */; };
+		F50211E12C2370D1005FDBF1 /* CustomBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50211E02C2370D1005FDBF1 /* CustomBundle.swift */; };
+		F50211E32C238FB6005FDBF1 /* LocalAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50211E22C238FB6005FDBF1 /* LocalAuthentication.swift */; };
+		F573E7D12C430AC7009DCAEC /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573E7D02C430AC7009DCAEC /* SplashScreenView.swift */; };
+		F573E7D32C432971009DCAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F573E7D22C432971009DCAEC /* LaunchScreen.storyboard */; };
+		F573E7D52C432F38009DCAEC /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573E7D42C432F38009DCAEC /* IntroView.swift */; };
+		F573E7D72C4468E6009DCAEC /* ImageUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573E7D62C4468E6009DCAEC /* ImageUploadManager.swift */; };
+		F5B7E6522C18F2A90006B185 /* GreenGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E6512C18F2A90006B185 /* GreenGameApp.swift */; };
+		F5B7E6542C18F2A90006B185 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E6532C18F2A90006B185 /* ContentView.swift */; };
+		F5B7E6562C18F2AA0006B185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B7E6552C18F2AA0006B185 /* Assets.xcassets */; };
+		F5B7E6592C18F2AA0006B185 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B7E6582C18F2AA0006B185 /* Preview Assets.xcassets */; };
+		F5B7E6632C18F2AA0006B185 /* GreenGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E6622C18F2AA0006B185 /* GreenGameTests.swift */; };
+		F5B7E66D2C18F2AA0006B185 /* GreenGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E66C2C18F2AA0006B185 /* GreenGameUITests.swift */; };
+		F5B7E66F2C18F2AA0006B185 /* GreenGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E66E2C18F2AA0006B185 /* GreenGameUITestsLaunchTests.swift */; };
+		F5B7E67C2C1B9E470006B185 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5B7E67B2C1B9E470006B185 /* GoogleService-Info.plist */; };
+		F5B7E67F2C1B9F8A0006B185 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F5B7E67E2C1B9F8A0006B185 /* FirebaseAnalytics */; };
+		F5B7E6812C1B9F8A0006B185 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F5B7E6802C1B9F8A0006B185 /* FirebaseAnalyticsOnDeviceConversion */; };
+		F5B7E6832C1B9F8A0006B185 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5B7E6822C1B9F8A0006B185 /* FirebaseAnalyticsSwift */; };
+		F5B7E6852C1BA36C0006B185 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F5B7E6842C1BA36C0006B185 /* FirebaseAuth */; };
+		F5B7E6872C1BA3A20006B185 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F5B7E6862C1BA3A20006B185 /* FirebaseFirestore */; };
+		F5B7E6892C1BA6FD0006B185 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E6882C1BA6FD0006B185 /* MainView.swift */; };
+		F5B7E68B2C1BACC10006B185 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E68A2C1BACC10006B185 /* AuthViewModel.swift */; };
+		F5B7E68D2C1BAD640006B185 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E68C2C1BAD640006B185 /* Constants.swift */; };
+		F5B7E68F2C1BAD7F0006B185 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E68E2C1BAD7F0006B185 /* ImageClassifier.swift */; };
+		F5B7E6912C1C72680006B185 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B7E6902C1C72680006B185 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B7E65F2C18F2AA0006B185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B7E6462C18F2A90006B185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B7E64D2C18F2A90006B185;
+			remoteInfo = GreenGame;
+		};
+		F5B7E6692C18F2AA0006B185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B7E6462C18F2A90006B185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B7E64D2C18F2A90006B185;
+			remoteInfo = GreenGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F50211BC2C1DBD19005FDBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F50211BD2C1DCB76005FDBF1 /* recycling_symbol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = recycling_symbol.jpg; sourceTree = SOURCE_ROOT; };
+		F50211CC2C220BAF005FDBF1 /* ClassificationResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationResultView.swift; sourceTree = "<group>"; };
+		F50211D42C236FB4005FDBF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F50211D92C236FDE005FDBF1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F50211DC2C236FF6005FDBF1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable_de.strings; sourceTree = "<group>"; };
+		F50211DF2C236FFE005FDBF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable_de.strings; sourceTree = "<group>"; };
+		F50211E02C2370D1005FDBF1 /* CustomBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBundle.swift; sourceTree = "<group>"; };
+		F50211E22C238FB6005FDBF1 /* LocalAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthentication.swift; sourceTree = "<group>"; };
+		F573E7D02C430AC7009DCAEC /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F573E7D22C432971009DCAEC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F573E7D42C432F38009DCAEC /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		F573E7D62C4468E6009DCAEC /* ImageUploadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadManager.swift; sourceTree = "<group>"; };
+		F5B7E64E2C18F2A90006B185 /* SortMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B7E6512C18F2A90006B185 /* GreenGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenGameApp.swift; sourceTree = "<group>"; };
+		F5B7E6532C18F2A90006B185 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5B7E6552C18F2AA0006B185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B7E6582C18F2AA0006B185 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5B7E65E2C18F2AA0006B185 /* GreenGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B7E6622C18F2AA0006B185 /* GreenGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenGameTests.swift; sourceTree = "<group>"; };
+		F5B7E6682C18F2AA0006B185 /* GreenGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B7E66C2C18F2AA0006B185 /* GreenGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenGameUITests.swift; sourceTree = "<group>"; };
+		F5B7E66E2C18F2AA0006B185 /* GreenGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5B7E67B2C1B9E470006B185 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F5B7E6882C1BA6FD0006B185 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F5B7E68A2C1BACC10006B185 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F5B7E68C2C1BAD640006B185 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F5B7E68E2C1BAD7F0006B185 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		F5B7E6902C1C72680006B185 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B7E64B2C18F2A90006B185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B7E6832C1B9F8A0006B185 /* FirebaseAnalyticsSwift in Frameworks */,
+				F5B7E67F2C1B9F8A0006B185 /* FirebaseAnalytics in Frameworks */,
+				F5B7E6812C1B9F8A0006B185 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				F5B7E6872C1BA3A20006B185 /* FirebaseFirestore in Frameworks */,
+				F5B7E6852C1BA36C0006B185 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7E65B2C18F2AA0006B185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7E6652C18F2AA0006B185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50211D22C236F9B005FDBF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F50211D32C236FB4005FDBF1 /* Localizable.strings */,
+				F50211DD2C236FF6005FDBF1 /* Localizable_de.strings */,
+				F50211E02C2370D1005FDBF1 /* CustomBundle.swift */,
+				F573E7D22C432971009DCAEC /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5B7E6452C18F2A90006B185 = {
+			isa = PBXGroup;
+			children = (
+				F50211D22C236F9B005FDBF1 /* Resources */,
+				F50211CC2C220BAF005FDBF1 /* ClassificationResultView.swift */,
+				F5B7E6502C18F2A90006B185 /* GreenGame */,
+				F5B7E6612C18F2AA0006B185 /* GreenGameTests */,
+				F5B7E66B2C18F2AA0006B185 /* GreenGameUITests */,
+				F5B7E64F2C18F2A90006B185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B7E64F2C18F2A90006B185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7E64E2C18F2A90006B185 /* SortMate.app */,
+				F5B7E65E2C18F2AA0006B185 /* GreenGameTests.xctest */,
+				F5B7E6682C18F2AA0006B185 /* GreenGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B7E6502C18F2A90006B185 /* GreenGame */ = {
+			isa = PBXGroup;
+			children = (
+				F50211BD2C1DCB76005FDBF1 /* recycling_symbol.jpg */,
+				F50211BC2C1DBD19005FDBF1 /* Info.plist */,
+				F5B7E6512C18F2A90006B185 /* GreenGameApp.swift */,
+				F5B7E6532C18F2A90006B185 /* ContentView.swift */,
+				F5B7E67B2C1B9E470006B185 /* GoogleService-Info.plist */,
+				F5B7E6552C18F2AA0006B185 /* Assets.xcassets */,
+				F5B7E6572C18F2AA0006B185 /* Preview Content */,
+				F5B7E6882C1BA6FD0006B185 /* MainView.swift */,
+				F5B7E68A2C1BACC10006B185 /* AuthViewModel.swift */,
+				F5B7E68C2C1BAD640006B185 /* Constants.swift */,
+				F5B7E68E2C1BAD7F0006B185 /* ImageClassifier.swift */,
+				F5B7E6902C1C72680006B185 /* ImagePicker.swift */,
+				F50211E22C238FB6005FDBF1 /* LocalAuthentication.swift */,
+				F573E7D02C430AC7009DCAEC /* SplashScreenView.swift */,
+				F573E7D42C432F38009DCAEC /* IntroView.swift */,
+				F573E7D62C4468E6009DCAEC /* ImageUploadManager.swift */,
+			);
+			path = GreenGame;
+			sourceTree = "<group>";
+		};
+		F5B7E6572C18F2AA0006B185 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7E6582C18F2AA0006B185 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5B7E6612C18F2AA0006B185 /* GreenGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7E6622C18F2AA0006B185 /* GreenGameTests.swift */,
+			);
+			path = GreenGameTests;
+			sourceTree = "<group>";
+		};
+		F5B7E66B2C18F2AA0006B185 /* GreenGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7E66C2C18F2AA0006B185 /* GreenGameUITests.swift */,
+				F5B7E66E2C18F2AA0006B185 /* GreenGameUITestsLaunchTests.swift */,
+			);
+			path = GreenGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B7E64D2C18F2A90006B185 /* GreenGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B7E6722C18F2AA0006B185 /* Build configuration list for PBXNativeTarget "GreenGame" */;
+			buildPhases = (
+				F5B7E64A2C18F2A90006B185 /* Sources */,
+				F5B7E64B2C18F2A90006B185 /* Frameworks */,
+				F5B7E64C2C18F2A90006B185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenGame;
+			packageProductDependencies = (
+				F5B7E67E2C1B9F8A0006B185 /* FirebaseAnalytics */,
+				F5B7E6802C1B9F8A0006B185 /* FirebaseAnalyticsOnDeviceConversion */,
+				F5B7E6822C1B9F8A0006B185 /* FirebaseAnalyticsSwift */,
+				F5B7E6842C1BA36C0006B185 /* FirebaseAuth */,
+				F5B7E6862C1BA3A20006B185 /* FirebaseFirestore */,
+			);
+			productName = GreenGame;
+			productReference = F5B7E64E2C18F2A90006B185 /* SortMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B7E65D2C18F2AA0006B185 /* GreenGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B7E6752C18F2AA0006B185 /* Build configuration list for PBXNativeTarget "GreenGameTests" */;
+			buildPhases = (
+				F5B7E65A2C18F2AA0006B185 /* Sources */,
+				F5B7E65B2C18F2AA0006B185 /* Frameworks */,
+				F5B7E65C2C18F2AA0006B185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B7E6602C18F2AA0006B185 /* PBXTargetDependency */,
+			);
+			name = GreenGameTests;
+			productName = GreenGameTests;
+			productReference = F5B7E65E2C18F2AA0006B185 /* GreenGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B7E6672C18F2AA0006B185 /* GreenGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B7E6782C18F2AA0006B185 /* Build configuration list for PBXNativeTarget "GreenGameUITests" */;
+			buildPhases = (
+				F5B7E6642C18F2AA0006B185 /* Sources */,
+				F5B7E6652C18F2AA0006B185 /* Frameworks */,
+				F5B7E6662C18F2AA0006B185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B7E66A2C18F2AA0006B185 /* PBXTargetDependency */,
+			);
+			name = GreenGameUITests;
+			productName = GreenGameUITests;
+			productReference = F5B7E6682C18F2AA0006B185 /* GreenGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B7E6462C18F2A90006B185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F5B7E64D2C18F2A90006B185 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F5B7E65D2C18F2AA0006B185 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F5B7E64D2C18F2A90006B185;
+					};
+					F5B7E6672C18F2AA0006B185 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F5B7E64D2C18F2A90006B185;
+					};
+				};
+			};
+			buildConfigurationList = F5B7E6492C18F2A90006B185 /* Build configuration list for PBXProject "GreenGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = F5B7E6452C18F2A90006B185;
+			packageReferences = (
+				F5B7E67D2C1B9F890006B185 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F5B7E64F2C18F2A90006B185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B7E64D2C18F2A90006B185 /* GreenGame */,
+				F5B7E65D2C18F2AA0006B185 /* GreenGameTests */,
+				F5B7E6672C18F2AA0006B185 /* GreenGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B7E64C2C18F2A90006B185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50211D52C236FB4005FDBF1 /* Localizable.strings in Resources */,
+				F5B7E6592C18F2AA0006B185 /* Preview Assets.xcassets in Resources */,
+				F5B7E6562C18F2AA0006B185 /* Assets.xcassets in Resources */,
+				F50211DE2C236FF6005FDBF1 /* Localizable_de.strings in Resources */,
+				F573E7D32C432971009DCAEC /* LaunchScreen.storyboard in Resources */,
+				F5B7E67C2C1B9E470006B185 /* GoogleService-Info.plist in Resources */,
+				F50211BE2C1DCB76005FDBF1 /* recycling_symbol.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7E65C2C18F2AA0006B185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7E6662C18F2AA0006B185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B7E64A2C18F2A90006B185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F573E7D72C4468E6009DCAEC /* ImageUploadManager.swift in Sources */,
+				F5B7E68F2C1BAD7F0006B185 /* ImageClassifier.swift in Sources */,
+				F50211E12C2370D1005FDBF1 /* CustomBundle.swift in Sources */,
+				F5B7E68D2C1BAD640006B185 /* Constants.swift in Sources */,
+				F50211E32C238FB6005FDBF1 /* LocalAuthentication.swift in Sources */,
+				F573E7D12C430AC7009DCAEC /* SplashScreenView.swift in Sources */,
+				F573E7D52C432F38009DCAEC /* IntroView.swift in Sources */,
+				F50211CD2C220BAF005FDBF1 /* ClassificationResultView.swift in Sources */,
+				F5B7E68B2C1BACC10006B185 /* AuthViewModel.swift in Sources */,
+				F5B7E6912C1C72680006B185 /* ImagePicker.swift in Sources */,
+				F5B7E6542C18F2A90006B185 /* ContentView.swift in Sources */,
+				F5B7E6892C1BA6FD0006B185 /* MainView.swift in Sources */,
+				F5B7E6522C18F2A90006B185 /* GreenGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7E65A2C18F2AA0006B185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B7E6632C18F2AA0006B185 /* GreenGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B7E6642C18F2AA0006B185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B7E66F2C18F2AA0006B185 /* GreenGameUITestsLaunchTests.swift in Sources */,
+				F5B7E66D2C18F2AA0006B185 /* GreenGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B7E6602C18F2AA0006B185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B7E64D2C18F2A90006B185 /* GreenGame */;
+			targetProxy = F5B7E65F2C18F2AA0006B185 /* PBXContainerItemProxy */;
+		};
+		F5B7E66A2C18F2AA0006B185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B7E64D2C18F2A90006B185 /* GreenGame */;
+			targetProxy = F5B7E6692C18F2AA0006B185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F50211D32C236FB4005FDBF1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50211D42C236FB4005FDBF1 /* en */,
+				F50211D92C236FDE005FDBF1 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F50211DD2C236FF6005FDBF1 /* Localizable_de.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50211DC2C236FF6005FDBF1 /* de */,
+				F50211DF2C236FFE005FDBF1 /* en */,
+			);
+			name = Localizable_de.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B7E6702C18F2AA0006B185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5B7E6712C18F2AA0006B185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B7E6732C18F2AA0006B185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenGame/Preview Content\"";
+				DEVELOPMENT_TEAM = H64MBL6DJ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreenGame/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos of trash items.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to secure your account.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyesh.GreenGame;
+				PRODUCT_NAME = SortMate;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B7E6742C18F2AA0006B185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenGame/Preview Content\"";
+				DEVELOPMENT_TEAM = H64MBL6DJ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreenGame/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos of trash items.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to secure your account.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyesh.GreenGame;
+				PRODUCT_NAME = SortMate;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5B7E6762C18F2AA0006B185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H64MBL6DJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyesh.GreenGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenGame";
+			};
+			name = Debug;
+		};
+		F5B7E6772C18F2AA0006B185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H64MBL6DJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyesh.GreenGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenGame";
+			};
+			name = Release;
+		};
+		F5B7E6792C18F2AA0006B185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H64MBL6DJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyesh.GreenGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenGame;
+			};
+			name = Debug;
+		};
+		F5B7E67A2C18F2AA0006B185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H64MBL6DJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyesh.GreenGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B7E6492C18F2A90006B185 /* Build configuration list for PBXProject "GreenGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B7E6702C18F2AA0006B185 /* Debug */,
+				F5B7E6712C18F2AA0006B185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B7E6722C18F2AA0006B185 /* Build configuration list for PBXNativeTarget "GreenGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B7E6732C18F2AA0006B185 /* Debug */,
+				F5B7E6742C18F2AA0006B185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B7E6752C18F2AA0006B185 /* Build configuration list for PBXNativeTarget "GreenGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B7E6762C18F2AA0006B185 /* Debug */,
+				F5B7E6772C18F2AA0006B185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B7E6782C18F2AA0006B185 /* Build configuration list for PBXNativeTarget "GreenGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B7E6792C18F2AA0006B185 /* Debug */,
+				F5B7E67A2C18F2AA0006B185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5B7E67D2C1B9F890006B185 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5B7E67E2C1B9F8A0006B185 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B7E67D2C1B9F890006B185 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F5B7E6802C1B9F8A0006B185 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B7E67D2C1B9F890006B185 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		F5B7E6822C1B9F8A0006B185 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B7E67D2C1B9F890006B185 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		F5B7E6842C1BA36C0006B185 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B7E67D2C1B9F890006B185 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F5B7E6862C1BA3A20006B185 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B7E67D2C1B9F890006B185 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5B7E6462C18F2A90006B185 /* Project object */;
+}

@@ -1,0 +1,24 @@
+/* 
+  Localizable_de.strings
+  GreenGame
+
+  Created by Satyesh Shivam on 19/06/24.
+  
+*/
+"welcome_message" = "SORTMATE";
+"login" = "Login";
+"sign_up" = "Sign Up";
+"full_name" = "Full Name";
+"email" = "Email";
+"password" = "Password";
+"stay_signed_in" = "Stay signed in";
+"upload_image" = "Upload Trash";
+"classifying" = "Classifying...";
+"logout" = "Logout";
+"classification_results" = "Classification Results:";
+"unable_to_classify" = "Unable to classify the image.";
+"recycling_center_message" = "Please check if you have below image in the bottle. If yes, then take the bottle to recycling Centre of Super Market. You will get money out of it.";
+"select_image" = "Select Image Source";
+"img_source" = "Choose a source for your image.";
+"error_message" = "Unable to classify the image. Can you re-upload the image?";
+"face_id" = "Use Face ID";
